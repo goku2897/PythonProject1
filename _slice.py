@@ -6,6 +6,7 @@ print(s[0:2]) # We
 print(s[2:6])
 
 print(s[2:6:2]) #lo
+print(s[2:6:1])
 
 print(s[:]) # Welcome to Rajesh Academy
 
