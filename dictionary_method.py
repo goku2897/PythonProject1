@@ -1,8 +1,8 @@
-demo_dict2 = {"qa":"testurl","uat":"uaturl","preprod":"preprodurl"}
+demo_dict2 = {"qa":"testurl","uat":"uaturl"}
 
 
-# #get()
-# print(demo_dict2.get("preprod")) #preprodurl
+#get()
+print(demo_dict2.get("preprod",0)+1) #preprodurl
 #
 # #keys()
 # print(demo_dict2.keys()) #dict_keys(['qa', 'uat', 'preprod'])
@@ -26,12 +26,12 @@ demo_dict2 = {"qa":"testurl","uat":"uaturl","preprod":"preprodurl"}
 # demo_dict2.update({"preprod":"preprodbesturl"})
 # print(demo_dict2) #{'qa': 'testurl', 'uat': 'uaturl', 'preprod': 'preprodbesturl'}
 
-#copy()
-demo_copy = demo_dict2.copy()
-print(demo_copy) #{'qa': 'testurl', 'uat': 'uaturl', 'preprod': 'preprodurl'}
-
-#clear()
-demo_copy.clear()
-print(demo_copy) #{}
+# #copy()
+# demo_copy = demo_dict2.copy()
+# print(demo_copy) #{'qa': 'testurl', 'uat': 'uaturl', 'preprod': 'preprodurl'}
+#
+# #clear()
+# demo_copy.clear()
+# print(demo_copy) #{}
 
 
