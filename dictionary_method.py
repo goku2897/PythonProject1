@@ -2,7 +2,7 @@ demo_dict2 = {"qa":"testurl","uat":"uaturl"}
 
 
 #get()
-print(demo_dict2.get("preprod",0)+1) #preprodurl
+print(demo_dict2.get("preprod",0)) #preprodurl
 #
 # #keys()
 # print(demo_dict2.keys()) #dict_keys(['qa', 'uat', 'preprod'])
