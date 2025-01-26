@@ -26,7 +26,7 @@ demo_tupple = (5,7,8,9,29,70)
 
 #input()
 
-name = input("enter your name")
-
-print("Welcom {MessagefromUser}".format(MessagefromUser = name))
+# name = input("enter your name")
+#
+# print("Welcom {MessagefromUser}".format(MessagefromUser = name))
 
